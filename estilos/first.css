@@ -73,7 +73,6 @@ header > nav > ul > li > a:hover {
 
 main {
   width: 100vw;
-  height: 100vh;
 }
 
 #sobre {
@@ -81,6 +80,7 @@ main {
   width: 90%;
   height: 500px;
   margin: 10px auto;
+  padding-top: 10px;
 }
 
 #imagem {
@@ -125,7 +125,9 @@ main {
   width: 80%;
   margin: auto;
   margin-top: 50px;
-  padding-bottom: 50px; /* <- FICAR ATENTO */
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #contato > h2 {
@@ -177,4 +179,87 @@ input[type='submit'] {
 
 input[type='submit']:hover {
   background-color: #314E9E;
+}
+
+input[type='text']:focus-within {
+  outline-color: #182C61;
+}
+
+input[type='email']:focus-within {
+  outline-color: #182C61;
+}
+
+input[type='tel']:focus-within {
+  outline-color: #182C61;
+}
+
+textarea:focus-within {
+  outline-color: #182C61;
+}
+
+#redes-sociais {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+}
+
+#redes-sociais > h2 {
+  font-family: var(--fonteprincipal);
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #182C61;
+}
+
+#redes-sociais > ul {
+  list-style-type: none;
+  list-style-position: inside;
+  margin-top: 25px;
+}
+
+#redes-sociais > ul > li {
+  display: inline;
+  margin: 5px;
+}
+
+#redes-sociais > ul > li > a > img {
+  width: 30px;
+}
+
+#redes-sociais > ul > li > a > img#youtube {
+  width: 70px;
+}
+
+#endereco {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+}
+
+#endereco > h2 {
+  font-family: var(--fonteprincipal);
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #182C61;
+  text-align: center;
+}
+
+#endereco > p {
+  color: #182C61;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #182C61;
+  color: white;
+  width: 100%;
+  height: 50px;
+  line-height: 50px; 
+  text-align: center;
+}
+
+#burguer:hover {
+  background-color: #111f45;
+  transition-duration: .3s;
 }
