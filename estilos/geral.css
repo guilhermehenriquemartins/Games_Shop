@@ -90,4 +90,38 @@ Grandes telas: acima de 1200px
     float: left;
     margin: 10px auto;
   }
+
+  #contato {
+    height: 500px;
+  }
+
+  #dados {
+    height: 85%;
+  }
+
+  #formulario {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+
+  #formulario > h2 {
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+
+  #demais-contatos {
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+  }
+
+  #demais-contatos > div > h2 {
+    text-align: left;
+  }
+
+  #demais-contatos ul {
+    float: left;
+  }
 }

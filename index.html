@@ -41,39 +41,43 @@
       </div>
       </div>
     </section>
-    <div id="contato">
+    <section id="contato">
       <h2>contato</h2>
-      <div id="formulario">
-        <h2>fale conosco</h2>
-        <form action="contato.php" method="post">
-          <p>
-            <input type="text" name="nome" id="inome" placeholder="Seu nome" autocomplete="username" required>
-          </p>
-          <p>
-            <input type="email" name="email" id="iemail"placeholder="Seu e-mail" required>
-          </p>
-          <p>
-            <input type="tel" name="tel" id="itel" placeholder="Seu telefone (opcional)" pattern="^\(\d{2}\)\d{4,5}-[0-9]{4,5}$"required>
-          </p>
+      <section id="dados">
+        <div id="formulario">
+          <h2>fale conosco</h2>
+          <form action="contato.php" method="post">
             <p>
-            <textarea name="msg" id="imsg" cols="30" rows="10"placeholder="Sua mensagem" required></textarea>
-          </p>
-            <input type="submit" value="Enviar">
-        </form>
-      </div>
-      <div id="redes-sociais">
-        <h2>nos acompanhe</h2>
-        <ul>
-          <li><a href="#"><img src="imagens/instagram.png"alt="Instagram-Logo"></a>
-          <li><a href="#"><img src="imagens/facebook.png"alt="Facebook-Logo"></a>
-          <li><a href="#"><img id="youtube" src="imagens/youtube.png"alt="YouTube-Logo"></a>
-        </ul>
-      </div>
-      <div id="endereco">
-        <h2>venha até nós</h2>
-        <p>Rua JavaScript n° 124, Vila HTML - São Paulo - SP</p>
-      </div>
-    </div>
+              <input type="text" name="nome" id="inome" placeholder="Seu nome" autocomplete="username" required>
+            </p>
+            <p>
+              <input type="email" name="email" id="iemail"placeholder="Seu e-mail" required>
+            </p>
+            <p>
+              <input type="tel" name="tel" id="itel" placeholder="Seu telefone (opcional)" pattern="^\(\d{2}\)\d{4,5}-[0-9]{4,5}$"required>
+            </p>
+              <p>
+              <textarea name="msg" id="imsg" cols="30" rows="10"placeholder="Sua mensagem" required></textarea>
+            </p>
+              <input type="submit" value="Enviar">
+          </form>
+        </div>
+        <div id="demais-contatos">
+          <div>
+            <h2>nos acompanhe</h2>
+            <ul>
+              <li><a href="#"><img src="imagens/instagram.png" alt="Logo-Instagram"></a>
+              <li><a href="#"><img src="imagens/facebook.png" alt="Logo-Facebook"></a>
+              <li><a href="#"><img id="logo-youtube" src="imagens/youtube.png" alt="Logo-YouTube"></a>
+            </ul>
+          </div>
+          <div>
+            <h2>venha até nós</h2>
+            <p>Rua JavaScript nº 124, Vila HTML - São Paulo - SP</p>
+          </div>
+        </div>
+      </section>
+    </section>
   </main>
   <footer>
     <p>&copy;Games Shop - Todos os direitos reservados - 2022</p>
