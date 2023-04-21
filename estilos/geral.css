@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints 
+
+-----------------------------
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  header {
+    display: flex;
+    align-items: center;
+  }
+
+  header h1 {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0px;
+  }
+
+  #burguer {
+    display: none;
+  }
+
+  #largura-menu {
+    background-color: red;
+  }
+
+  header #items {
+    display: block;
+  }
+
+  header > #largura-menu > nav > ul {
+    float: right;
+  }
+
+  header > #largura-menu > nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  header > #largura-menu > nav > ul > li > a {
+    display: inline-block;
+    padding: 0px;
+    border: none;
+    font-size: 1em;
+    margin-left: 15px;
+  }
+
+  header > #largura-menu > nav > ul > li > a:hover {
+    background-color: transparent;
+  }
+
+  #sobre {
+    height: 400px;
+  }
+
+  #imagem {
+    float: left;
+    height: 90%;
+    width: 50%;
+  }
+
+  #texto {
+    float: right;
+    height: 100%;
+    width: 50%;
+  }
+
+  #texto > h2 {
+    text-align: left;
+  }
+
+  .icones {
+    width: 100%;
+  }
+
+  .icones > img {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+}

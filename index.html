@@ -8,17 +8,20 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="shortcut icon" href="imagens/carrinho.png" type="image/x-icon">
   <link rel="stylesheet" href="estilos/first.css">
+  <link rel="stylesheet" href="estilos/geral.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
   <header>
-      <h1>games shop</h1>
-      <span id="burguer" class="material-icons" onclick="funcao()">menu</span>
-      <nav id="items">
-        <ul>
-          <li><a href="#sobre">sobre a loja</a>
-          <li><a href="#contato">contato</a>
-        </ul>
-      </nav>
+      <div id="largura-menu">
+        <h1>games shop</h1>
+        <span id="burguer" class="material-icons" onclick="funcao()">menu</span>
+        <nav id="items">
+          <ul>
+            <li><a href="#sobre">sobre a loja</a>
+            <li><a href="#contato">contato</a>
+          </ul>
+        </nav>
+      </div>
   </header>
   <main>
     <section id="sobre">
@@ -29,13 +32,13 @@
         <h2>sobre a loja</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet delectus, ipsum aspernatur excepturi quis illo. Et, aut, unde quod, quisquam fugiat porro rerum dolore nihil laudantium voluptates asperiores vitae veniam.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati possimus omnis, sunt velit reprehenderit sequi asperiores magnam quia sed ex odit, quisquam ipsum molestiae. Laborum natus adipisci facere aliquam!</p>
+        <div class="icones">
+          <img src="imagens/nintendo.png" alt="nintendo-logo">
+          <img src="imagens/xbox.png" alt="xbox-logo">
+          <img src="imagens/playstation.png" alt="playstation-logo">
+      </div>
       </div>
     </section>
-    <div id="icones">
-        <img src="imagens/nintendo.png" alt="nintendo-logo">
-        <img src="imagens/xbox.png" alt="xbox-logo">
-        <img src="imagens/playstation.png" alt="playstation-logo">
-    </div>
     <div id="contato">
       <h2>contato</h2>
       <div id="formulario">

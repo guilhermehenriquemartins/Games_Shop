@@ -31,13 +31,18 @@ header {
   background-color: #182C61;
 }
 
-header > h1 {
+#largura-menu {
+  width: 90%;
+  margin: auto;
+}
+
+header h1 {
   font-family: var(--fonteprincipal);
   text-transform: uppercase;
   color: white;
   text-align: center;
   padding: 20px 0px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .material-icons {
@@ -50,23 +55,28 @@ header > h1 {
   cursor: pointer;
 }
 
-header > #items {
+header #items {
   display: none;
 }
 
-header > nav > ul > li > a {
+header > #largura-menu > nav > ul {
+  list-style-type: none;
+}
+
+header > #largura-menu > nav > ul > li > a {
+  display: block;
   font-family: var(--fonteprincipal);
   text-transform: uppercase;
   color: white;
   text-decoration: none;
   background-color: #182C61;
-  display: block;
   padding: 15px 0px;
   text-align: center;
   border-bottom: 1px solid #1f3779;
+  font-size: .8em;
 }
 
-header > nav > ul > li > a:hover {
+header > #largura-menu > nav > ul > li > a:hover {
   background-color: #111f45;
   transition-duration: .3s;
 }
@@ -109,14 +119,14 @@ main {
   margin: 5px 0px;
 }
 
-#icones {
-  width: 45%;
+.icones {
+  width: 30%;
   height: 20px;
   display: flex;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
-#icones > img {
+.icones > img {
   margin: 0px 5px;
 }
 
@@ -257,6 +267,10 @@ footer {
   height: 50px;
   line-height: 50px; 
   text-align: center;
+}
+
+footer > p {
+  font-size: .9em;
 }
 
 #burguer:hover {
