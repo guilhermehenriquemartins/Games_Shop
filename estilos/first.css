@@ -120,24 +120,48 @@ main {
 }
 
 .icones {
-  width: 30%;
+  width: 60%;
   height: 20px;
-  display: flex;
-  margin: 10px auto;
+  text-align: center;
+  margin: 20px auto;
 }
 
-.icones > img {
-  margin: 0px 5px;
+.icones > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 100%;
+}
+
+.icones > ul > li {
+  display: inline-block;
+  width: 33%;
+  height: 100%;
+}
+
+.icones > ul > li > img {
+  width: 70%;
+  height: 100%;
+}
+
+#play {
+  width: 40%;
+  height: 100%;
 }
 
 #contato {
   position: relative;
-  width: 80%;
+  width: 90%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+#formulario {
+  width: 80%;
+  margin: auto;
 }
 
 #contato > h2 {
