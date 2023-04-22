@@ -51,8 +51,9 @@ Grandes telas: acima de 1200px
 
   header > #largura-menu > nav > ul > li > a {
     padding: 0px;
-    font-size: 1em;
+    font-size: .9em;
     margin-left: 15px;
+    border: none;
   }
 
   header > #largura-menu > nav > ul > li > a:hover {
@@ -63,6 +64,7 @@ Grandes telas: acima de 1200px
     height: 400px;
     padding: 0px;
     margin-top: 20px;
+    width: 90%;
   }
 
   #imagem {
@@ -107,9 +109,14 @@ Grandes telas: acima de 1200px
     height: 100%;
   }
 
+  form {
+    float: left;
+  }
+
   #formulario > h2 {
     padding: 0px;
     padding-bottom: 20px;
+    text-align: left;
   }
 
   #demais-contatos {
@@ -125,5 +132,205 @@ Grandes telas: acima de 1200px
 
   #demais-contatos ul {
     float: left;
+    width: 150px;
+    height: 25px;
+  }
+
+  #demais-contatos #logo-youtube {
+    width: 100%;
+  }
+
+  #demais-contatos li {
+    text-align: left;
+    padding: 0px;
+  }
+
+  #largura-rodape {
+    width: 90%;
+    margin: auto;
+  }
+
+  footer p {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    height: 115px;
+  }
+
+  header #items {
+    display: block;
+    width: 50%;
+    text-align: right;
+  }
+
+  #largura-menu {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  #burguer {
+    display: none;
+  }
+
+  header > #largura-menu > nav > ul > li {
+    display: inline;
+  }
+
+  header > #largura-menu > nav > ul > li > a {
+    display: inline;
+    width: 150px;
+    border: none;
+    margin-left: 5px;
+    font-size: .9em;
+  }
+
+  header > #largura-menu > nav > ul > li > a:hover {
+    background-color: transparent;
+  }
+
+  header h1 {
+    width: 50%;
+    text-align: left;
+    padding: 0px;
+  }
+
+  #sobre {
+    width: 85%;
+    margin-top: 15px;
+  }
+
+  #imagem {
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+
+  #texto {
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-left: 30px; 
+    text-align: left;
+    background-color: white;
+  }
+
+  #texto > h2 {
+    text-align: left;
+  }
+
+  .icones {
+    float: left;
+    width: 50%;
+    height: 25px;
+    margin: 10px auto;
+  }
+
+  .icones > ul > li {
+    width: 33%;
+  }
+
+  .icones > ul > li > img {
+    height: 100%;
+    width: 90%;
+  }
+
+  #play {
+    float: left;
+    padding-left: 5px;
+  }
+
+  #texto > h2 {
+    margin-bottom: 30px;
+  }
+
+  #contato {
+    width: 85%;
+    height: 500px;
+  }
+
+  #dados {
+    width: 100%;
+    height: 90%;
+  }
+
+  #formulario {
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding: 0px 10px;
+    padding-top: 30px;
+  }
+
+  #formulario > h2 {
+    text-align: left;
+    padding: 0px;
+    padding-bottom: 30px;
+    font-size: .9em;
+  }
+
+  form {
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  input[type='text'], input[type='email'], input[type='tel'], input[type='submit'], textarea {
+    width: 80%;
+  }
+
+  #demais-contatos {
+    width: 60%;
+    height: 100%;
+    float: right;
+    margin: 0px;
+    display: flex;
+  }
+
+  #demais-contatos > div {
+    width: 50%;
+    padding-top: 30px;
+  }
+
+  #demais-contatos > div > h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: .9em;
+  }
+
+  #demais-contatos > div > ul {
+    float: left;
+    height: 25px;
+    width: 45%;
+  }
+
+  #demais-contatos > div > ul > li {
+    width: 33%;
+    text-align: left;
+  }
+
+  #demais-contatos > div > ul > li > a > #logo-youtube {
+    width: 90%;
+  }
+
+  #demais-contatos > div > p {
+    text-align: left;
+  }
+
+  #contato > h2 {
+    text-align: left;
+  }
+
+  #largura-rodape {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+  }
+
+  footer {
+    text-align: left;
   }
 }
